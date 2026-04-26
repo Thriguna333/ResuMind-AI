@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File
 import os
 
-from utils.file_parser import parse_file
+from backend.utils.file_parser import parse_file
 from utils.vector_store import create_collection, store_document, search, reset_collection
 from utils.qa_engine import generate_answer
 from utils.resume_analyzer import analyze_resume
