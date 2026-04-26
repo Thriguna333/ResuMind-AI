@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+pymupdf
+python-docx
+python-pptx
+spacy
+sentence-transformers
+qdrant-client
+pandas
