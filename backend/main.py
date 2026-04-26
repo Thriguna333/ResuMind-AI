@@ -1,10 +1,10 @@
 from fastapi import FastAPI, UploadFile, File
 import os
 
-from utils.file_parser import parse_file
-from utils.vector_store import create_collection, store_document, search, reset_collection
-from utils.qa_engine import generate_answer
-from utils.resume_analyzer import analyze_resume, generate_ai_resume_feedback
+from backend.utils.file_parser import parse_file
+from backend.utils.vector_store import store_document, search
+from backend.utils.qa_engine import generate_answer
+from backend.utils.resume_analyzer import analyze_resume
 from job_matcher import match_resume_to_job
 
 app = FastAPI(title="Document Intelligence Pipeline")
