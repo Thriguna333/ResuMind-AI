@@ -4,7 +4,12 @@ from sentence_transformers import SentenceTransformer
 import uuid
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
-qdrant = QdrantClient(host="localhost", port=6333)
+import os
+
+qdrant = QdrantClient(
+    host=os.getenv("QDRANT_HOST", "localhost"),
+    port=int(os.getenv("QDRANT_PORT", 6333))
+)
 
 COLLECTION_NAME = "documents"
 
