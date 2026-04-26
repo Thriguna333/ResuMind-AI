@@ -1,0 +1,14 @@
+venv/
+backend/venv/
+
+__pycache__/
+*.pyc
+
+uploads/
+backend/uploads/
+
+qdrant_storage/
+backend/qdrant_storage/
+
+.env
+.DS_Store
