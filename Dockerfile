@@ -1,0 +1,14 @@
+FROM python:3.10
+
+WORKDIR /app
+
+COPY . .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 🔥 install spacy model properly
+RUN python -m spacy download en_core_web_sm
+
+EXPOSE 10000
+
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "10000"]
