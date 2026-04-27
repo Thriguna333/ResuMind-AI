@@ -1,60 +1,102 @@
+<div align="center">
+
+<img src="assets/home.png" alt="ResuMind AI" width="100%"/>
+
 # 🧠 ResuMind AI
 
-AI-powered Resume & Document Intelligence Platform using RAG, semantic search, local LLMs, and job matching.
+### AI-powered Resume & Document Intelligence Platform
+
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-Vector_DB-7C3AED)
+![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-F59E0B)
+![spaCy](https://img.shields.io/badge/spaCy-NLP-09A3D5)
+
+**Analyze resumes · Extract insights · Chat with documents · Match jobs · All locally**
+
+[🚀 Live Demo](https://your-streamlit-url.streamlit.app) &nbsp;|&nbsp; [📄 Project Report](./ResuMind_AI_Report.pdf) &nbsp;|&nbsp; [⭐ Star this repo](https://github.com/Thriguna333/ResuMind-AI)
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td><img src="assets/home.png" alt="Home Page"/><br/><b>🏠 Home Page</b></td>
+    <td><img src="assets/features.png" alt="Features"/><br/><b>✨ Intelligent Capabilities</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/dashboard.png" alt="Dashboard"/><br/><b>📊 Resume Dashboard</b></td>
+    <td><img src="assets/chat.png" alt="AI Chat"/><br/><b>💬 AI Chat with Citations</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/job-match.png" alt="Job Matcher"/><br/><b>🎯 Job Match Analyzer</b></td>
+    <td><img src="assets/blackbox.png" alt="Blackbox AI"/><br/><b>🧠 Blackbox AI Assistant</b></td>
+  </tr>
+</table>
+
+---
 
 ## 🚀 Features
 
-- 📄 Resume analysis with score, strengths, and improvement suggestions
-- 📚 Document/report extraction for PDF, DOCX, and PPTX files
-- 💬 RAG-based chat with uploaded resumes and documents
-- 🎯 Job description matching with matched and missing skills
-- 🤖 AI recruiter feedback using local Ollama model
-- 🧠 Blackbox AI for general AI assistance
-- 🔍 Semantic search using Qdrant vector database
-- 📊 Professional Streamlit dashboard
+| Feature | Description |
+|---|---|
+| 📄 **Resume Parsing** | Extracts name, email, phone, skills, education, projects from PDF/DOCX/PPTX |
+| 📊 **Resume Score** | AI-based scoring (0-100) with strengths and improvement suggestions |
+| 🤖 **AI Recruiter Feedback** | Recruiter-style review using local LLM (phi3 via Ollama) |
+| 🔍 **Semantic Search** | RAG pipeline with Qdrant vector DB + SentenceTransformers embeddings |
+| 💬 **Chat with Resume** | Ask anything — answers with confidence score + source citations |
+| 🎯 **Job Matching** | Compare resume vs job description, see matched/missing skills instantly |
+| 🧠 **Blackbox AI** | General-purpose local AI assistant for any question |
+| 📚 **Document Intelligence** | Extract text, headings, tables, key-value pairs from any document |
+
+---
 
 ## 🛠 Tech Stack
 
-- Python
-- FastAPI
-- Streamlit
-- Qdrant
-- Sentence Transformers
-- spaCy
-- Ollama / Phi-3
-- PyMuPDF
-- python-docx
-- python-pptx
+| Layer | Technology | Purpose |
+|---|---|---|
+| Backend | FastAPI | REST API server |
+| Frontend | Streamlit | Interactive dashboard UI |
+| Vector Database | Qdrant | Embedding storage and retrieval |
+| Embeddings | SentenceTransformers (all-MiniLM-L6-v2) | 384-dim semantic vectors |
+| Local LLM | Ollama / phi3 | AI answers, feedback, Blackbox AI |
+| NLP / NER | spaCy (en_core_web_sm) | Named entity recognition |
+| PDF Parsing | PyMuPDF | Page + span level extraction |
+| DOCX/PPTX | python-docx, python-pptx | Office format parsing |
+
+---
 
 ## 🧩 System Architecture
 
-1. User uploads resume/document
-2. Text and metadata are extracted
-3. Text is cleaned and split into chunks
-4. Chunks are converted into embeddings
-5. Embeddings are stored in Qdrant
-6. User asks questions
-7. Relevant chunks are retrieved
-8. Local LLM generates grounded answers
+---
 
-## 📌 Modules
+## 🎯 Use Cases
 
-### Resume Intelligence
-Extracts candidate details, skills, projects, education, resume score, and recruiter-style feedback.
+- **Job Seekers** — Get AI feedback on your resume before applying
+- **Recruiters** — Quickly extract structured candidate data from resumes
+- **Students** — Analyze project reports and research papers via chat
+- **HR Teams** — Match candidates to job descriptions automatically
 
-### Document Intelligence
-Extracts text, headings, tables, key-value pairs, and enables document-based Q&A.
+---
 
-### Job Matcher
-Compares resume skills with job description requirements and returns a match score.
+## 👨‍💻 Author
 
-### Blackbox AI
-Provides general AI assistance using a local LLM.
+**Manikonda Sai Thriguna**
+3rd Year B.Tech — Artificial Intelligence & Machine Learning
 
-## ▶️ Run Locally
+[![GitHub](https://img.shields.io/badge/GitHub-Thriguna333-181717?logo=github)](https://github.com/Thriguna333)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/sai-thriguna-manikonda)
 
-### 1. Clone the repository
+---
 
-```bash
-git clone https://github.com/Thriguna333/ResuMind-AI.git
-cd ResuMind-AI/backend
+<div align="center">
+
+**⭐ If this project helped you, please give it a star!**
+
+*Built with ❤️ using FastAPI · Streamlit · Qdrant · Ollama · spaCy*
+
+</div>
