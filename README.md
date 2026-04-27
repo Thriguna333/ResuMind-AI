@@ -2,7 +2,7 @@
 
 <img src="assets/home.png" alt="ResuMind AI" width="100%"/>
 
-# 🧠 ResuMind AI
+#  ResuMind AI
 
 ### AI-powered Resume & Document Intelligence Platform
 
@@ -15,13 +15,13 @@
 
 **Analyze resumes · Extract insights · Chat with documents · Match jobs · All locally**
 
-[🚀 Live Demo](https://your-streamlit-url.streamlit.app) &nbsp;|&nbsp; [📄 Project Report](./ResuMind_AI_Report.pdf) &nbsp;|&nbsp; [⭐ Star this repo](https://github.com/Thriguna333/ResuMind-AI)
+[ Live Demo](https://your-streamlit-url.streamlit.app) &nbsp;|&nbsp; [📄 Project Report](./ResuMind_AI_Report.pdf) &nbsp;|&nbsp; [⭐ Star this repo](https://github.com/Thriguna333/ResuMind-AI)
 
 </div>
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <table>
   <tr>
@@ -40,18 +40,18 @@
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 📄 **Resume Parsing** | Extracts name, email, phone, skills, education, projects from PDF/DOCX/PPTX |
-| 📊 **Resume Score** | AI-based scoring (0-100) with strengths and improvement suggestions |
-| 🤖 **AI Recruiter Feedback** | Recruiter-style review using local LLM (phi3 via Ollama) |
-| 🔍 **Semantic Search** | RAG pipeline with Qdrant vector DB + SentenceTransformers embeddings |
-| 💬 **Chat with Resume** | Ask anything — answers with confidence score + source citations |
-| 🎯 **Job Matching** | Compare resume vs job description, see matched/missing skills instantly |
-| 🧠 **Blackbox AI** | General-purpose local AI assistant for any question |
-| 📚 **Document Intelligence** | Extract text, headings, tables, key-value pairs from any document |
+|  **Resume Parsing** | Extracts name, email, phone, skills, education, projects from PDF/DOCX/PPTX |
+|  **Resume Score** | AI-based scoring (0-100) with strengths and improvement suggestions |
+|  **AI Recruiter Feedback** | Recruiter-style review using local LLM (phi3 via Ollama) |
+|  **Semantic Search** | RAG pipeline with Qdrant vector DB + SentenceTransformers embeddings |
+|  **Chat with Resume** | Ask anything — answers with confidence score + source citations |
+|  **Job Matching** | Compare resume vs job description, see matched/missing skills instantly |
+|  **Blackbox AI** | General-purpose local AI assistant for any question |
+|  **Document Intelligence** | Extract text, headings, tables, key-value pairs from any document |
 
 ---
 
@@ -70,11 +70,11 @@
 
 ---
 
-## 🧩 System Architecture
+##  System Architecture
 
 ---
 
-## ▶️ Run Locally
+##  Run Locally
 
 ### Prerequisites
 - Python 3.10+
@@ -122,11 +122,11 @@ Open → **http://localhost:8501**
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **Job Seekers** — Get AI feedback on your resume before applying
 - **Recruiters** — Quickly extract structured candidate data from resumes
@@ -135,7 +135,7 @@ Open → **http://localhost:8501**
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Manikonda Sai Thriguna**
 3rd Year B.Tech — Artificial Intelligence & Machine Learning
@@ -147,8 +147,8 @@ Open → **http://localhost:8501**
 
 <div align="center">
 
-**⭐ If this project helped you, please give it a star!**
+** If this project helped you, please give it a star!**
 
-*Built with ❤️ using FastAPI · Streamlit · Qdrant · Ollama · spaCy*
+*Built with  using FastAPI · Streamlit · Qdrant · Ollama · spaCy*
 
 </div>
