@@ -3,7 +3,7 @@ import requests
 import json
 from datetime import datetime
 
-API_URL = "https://your-service-name.onrender.com"
+API_URL = API_URL = "http://127.0.0.1:8000"
 
 st.set_page_config(
     page_title="ResuMind AI",
