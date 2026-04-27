@@ -15,7 +15,7 @@
 
 **Analyze resumes · Extract insights · Chat with documents · Match jobs · All locally**
 
-[ Live Demo](https://your-streamlit-url.streamlit.app) &nbsp;|&nbsp; [📄 Project Report](./ResuMind_AI_Report.pdf) &nbsp;|&nbsp; [⭐ Star this repo](https://github.com/Thriguna333/ResuMind-AI)
+[ Live Demo](https://your-streamlit-url.streamlit.app) &nbsp;|&nbsp; [ Project Report](./ResuMind_AI_Report.pdf) &nbsp;|&nbsp; [ Star this repo](https://github.com/Thriguna333/ResuMind-AI)
 
 </div>
 
