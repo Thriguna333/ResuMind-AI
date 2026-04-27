@@ -25,16 +25,16 @@
 
 <table>
   <tr>
-    <td><img src="assets/home.png" alt="Home Page"/><br/><b>🏠 Home Page</b></td>
-    <td><img src="assets/features.png" alt="Features"/><br/><b>✨ Intelligent Capabilities</b></td>
+    <td><img src="assets/home.png" alt="Home Page"/><br/><b> Home Page</b></td>
+    <td><img src="assets/features.png" alt="Features"/><br/><b> Intelligent Capabilities</b></td>
   </tr>
   <tr>
-    <td><img src="assets/dashboard.png" alt="Dashboard"/><br/><b>📊 Resume Dashboard</b></td>
-    <td><img src="assets/chat.png" alt="AI Chat"/><br/><b>💬 AI Chat with Citations</b></td>
+    <td><img src="assets/dashboard.png" alt="Dashboard"/><br/><b> Resume Dashboard</b></td>
+    <td><img src="assets/chat.png" alt="AI Chat"/><br/><b> AI Chat with Citations</b></td>
   </tr>
   <tr>
-    <td><img src="assets/job-match.png" alt="Job Matcher"/><br/><b>🎯 Job Match Analyzer</b></td>
-    <td><img src="assets/blackbox.png" alt="Blackbox AI"/><br/><b>🧠 Blackbox AI Assistant</b></td>
+    <td><img src="assets/job-match.png" alt="Job Matcher"/><br/><b> Job Match Analyzer</b></td>
+    <td><img src="assets/blackbox.png" alt="Blackbox AI"/><br/><b> Blackbox AI Assistant</b></td>
   </tr>
 </table>
 
@@ -55,7 +55,7 @@
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
