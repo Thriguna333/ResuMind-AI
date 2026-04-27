@@ -1,18 +1,13 @@
-FROM python:3.10
+FROM python:3.10-slim
 
-WORKDIR /app
+WORKDIR /app/backend
 
-# copy everything
-COPY . .
+COPY requirements.txt ../requirements.txt
+COPY backend/ .
 
-# install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# install spacy model
+RUN pip install --no-cache-dir -r ../requirements.txt
 RUN python -m spacy download en_core_web_sm
 
-# expose port
 EXPOSE 10000
 
-# run app (IMPORTANT FIX HERE)
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "10000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "10000"]
